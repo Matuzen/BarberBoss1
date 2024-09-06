@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberBoss.Application", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberBoss.Domain", "src\BarberBoss.Domain\BarberBoss.Domain.csproj", "{1378675A-9F21-452F-B1FB-63C07935E6B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberBoss.Infra", "src\BarberBoss.Infra\BarberBoss.Infra.csproj", "{F32F2659-AD0F-4AAE-94F6-006C30C6C63F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberBoss.Infra", "src\BarberBoss.Infra\BarberBoss.Infra.csproj", "{F32F2659-AD0F-4AAE-94F6-006C30C6C63F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorsTest", "tests\ValidatorsTest\ValidatorsTest.csproj", "{140C1565-3DD1-49E2-8947-314FCA540EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommomTestUtilities", "tests\CommomTestUtilities\CommomTestUtilities.csproj", "{3F399C1C-6FBD-4DB5-860B-73372C05F403}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{F32F2659-AD0F-4AAE-94F6-006C30C6C63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32F2659-AD0F-4AAE-94F6-006C30C6C63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32F2659-AD0F-4AAE-94F6-006C30C6C63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140C1565-3DD1-49E2-8947-314FCA540EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140C1565-3DD1-49E2-8947-314FCA540EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140C1565-3DD1-49E2-8947-314FCA540EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140C1565-3DD1-49E2-8947-314FCA540EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F399C1C-6FBD-4DB5-860B-73372C05F403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F399C1C-6FBD-4DB5-860B-73372C05F403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F399C1C-6FBD-4DB5-860B-73372C05F403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F399C1C-6FBD-4DB5-860B-73372C05F403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +72,8 @@ Global
 		{6C8E9E54-F929-4BFB-9425-D1650957881B} = {C0EB6A8D-65A1-4070-8CE5-FC29347EEBF1}
 		{1378675A-9F21-452F-B1FB-63C07935E6B0} = {C0EB6A8D-65A1-4070-8CE5-FC29347EEBF1}
 		{F32F2659-AD0F-4AAE-94F6-006C30C6C63F} = {C0EB6A8D-65A1-4070-8CE5-FC29347EEBF1}
+		{140C1565-3DD1-49E2-8947-314FCA540EF4} = {4FAB6431-BC4C-4B6F-930C-857F96257018}
+		{3F399C1C-6FBD-4DB5-860B-73372C05F403} = {4FAB6431-BC4C-4B6F-930C-857F96257018}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56A2D992-ACF0-435B-B588-DF360603A0D6}
